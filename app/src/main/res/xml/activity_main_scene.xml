@@ -12,6 +12,18 @@
                motion:motionTarget="@+id/myButton"
                motion:framePosition="50"
                android:rotation="360" />
+           <KeyPosition
+               motion:motionTarget="@+id/myButton"
+               motion:framePosition="25"
+               motion:keyPositionType="parentRelative"
+               motion:percentX="0.15"
+               motion:percentY="0.25" />
+           <KeyPosition
+               motion:motionTarget="@+id/myButton"
+               motion:framePosition="75"
+               motion:keyPositionType="parentRelative"
+               motion:percentX="0.85"
+               motion:percentY="0.75" />
        </KeyFrameSet>
         <OnClick motion:targetId="@id/myButton"
             motion:clickAction="toggle" />
