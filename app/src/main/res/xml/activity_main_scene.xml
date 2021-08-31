@@ -25,7 +25,11 @@
             motion:layout_constraintTop_toTopOf="parent"
             motion:layout_constraintStart_toStartOf="parent"
             motion:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginTop="8dp" />
+            android:layout_marginTop="8dp" >
+            <CustomAttribute
+                motion:attributeName="backgroundColor"
+                motion:customColorValue="#F80A1F" />
+        </Constraint>
     </ConstraintSet>
 
     <ConstraintSet android:id="@+id/end">
@@ -36,6 +40,10 @@
             motion:layout_constraintStart_toStartOf="parent"
             motion:layout_constraintBottom_toBottomOf="parent"
             motion:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginBottom="8dp" />
+            android:layout_marginBottom="8dp" >
+            <CustomAttribute
+                motion:attributeName="backgroundColor"
+                motion:customColorValue="#33CC33" />
+        </Constraint>
     </ConstraintSet>
 </MotionScene>
