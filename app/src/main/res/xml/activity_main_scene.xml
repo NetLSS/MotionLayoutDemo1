@@ -8,6 +8,10 @@
         motion:constraintSetStart="@id/start"
         motion:duration="1000">
        <KeyFrameSet>
+           <KeyAttribute
+               motion:motionTarget="@+id/myButton"
+               motion:framePosition="50"
+               android:rotation="360" />
        </KeyFrameSet>
         <OnClick motion:targetId="@id/myButton"
             motion:clickAction="toggle" />
