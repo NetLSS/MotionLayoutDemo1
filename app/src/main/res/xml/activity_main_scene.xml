@@ -18,6 +18,7 @@
             android:layout_height="wrap_content"
             motion:layout_constraintTop_toTopOf="parent"
             motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
             android:layout_marginTop="8dp" />
     </ConstraintSet>
 
@@ -28,6 +29,7 @@
             android:layout_height="wrap_content"
             motion:layout_constraintStart_toStartOf="parent"
             motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent"
             android:layout_marginBottom="8dp" />
     </ConstraintSet>
 </MotionScene>
